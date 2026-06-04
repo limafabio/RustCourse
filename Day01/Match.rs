@@ -1,6 +1,6 @@
-
 fn main() {
-  let val = 1;
+
+  let val = 100;
   match val {
       1 => println!("one"),
       10 => println!("ten"),

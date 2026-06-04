@@ -5,7 +5,7 @@ fn main() {
         if i > 5 {
             break;
         }
-        if i % 2 == 0 {
+        if 0 == i % 2 {
             continue;
         }
         dbg!(i);

@@ -1,4 +1,3 @@
-
 fn takes_u32(x: u32) {
   println!("u32: {x}");
 }

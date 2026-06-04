@@ -1,4 +1,3 @@
-
 fn fib(n: u32) -> u32 {
     if n < 2 {
       return n;
@@ -7,8 +6,7 @@ fn fib(n: u32) -> u32 {
     }
 }
 
-
 fn main() {
-  let n = 21;
+  let n = 31;
   println!("fib({n}) = {}",fib(n));
 }

@@ -1,8 +1,6 @@
-
-
 fn main() {
-  let x = 10;
-  if x == 0 {
+  let x = 0;
+  if 0 == x {
       println!("zero");
   } else if x < 100 {
       println!("biggish");
