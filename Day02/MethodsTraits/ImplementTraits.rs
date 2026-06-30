@@ -1,4 +1,3 @@
-
 trait Pet {
 
     fn talk(&self) -> String;
