@@ -1,0 +1,17 @@
+
+fn add_42_millions(x: impl Into<i32>) -> i32 {
+    x.into() + 42_000_000
+}
+
+fn pair_of(x: u32) -> impl std::fmt::Debug {
+    (x + 1, x - 1)
+}
+
+fn main() {
+    let many = add_42_millions(42_i8);
+    dbg!(many);
+    let many_more = add_42_millions(10_000_000);
+    dbg!(many_more);
+    let debuggable = pair_of(27);
+    dbg!(debuggable);
+}
